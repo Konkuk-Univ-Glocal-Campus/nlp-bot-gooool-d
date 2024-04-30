@@ -17,7 +17,7 @@ while True:
     # wait for the user to enter some text
     user_input = input("> ")
     if user_input == "안녕":
-        # if they typed in 'bye' (or even BYE, ByE, byE etc.), break out of the loop
+        # if they typed in '안녕', break out of the loop
         break
     else:
         response = random.choices(random_responses)[0]
